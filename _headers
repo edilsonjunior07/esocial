@@ -1,3 +1,6 @@
+/*
+  Link: </.well-known/ai-catalog.json>; rel="ai-catalog"
+
 /llms.txt
   Content-Type: text/markdown; charset=utf-8
   Access-Control-Allow-Origin: *
