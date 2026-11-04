@@ -1,0 +1,167 @@
+{
+  "project_name": "Mapa Fácil do eSocial e Rotinas de DP - Creative Ads Studio Pro",
+  "product_facts": {
+    "name": "Mapa Fácil do eSocial e Rotinas de DP",
+    "price": "27,90",
+    "currency": "BRL",
+    "confirmed_bonuses": [
+      "Bônus 1: Mapa Visual de SST (S-2210, S-2220, S-2240 e LTCAT)",
+      "Bônus 2: Calendário Operacional Anual de Prazos do DP e eSocial",
+      "Bônus 3: Guia Comparativo Antes vs Depois do eSocial",
+      "Bônus 4: 50 Perguntas e Respostas dos Erros Mais Frequentes",
+      "Bônus 5: Checklist Anti-Multas de Fechamento de Folha"
+    ],
+    "confirmed_guarantee": "7 dias incondicional",
+    "proof_assets": [
+      "Mockup 3D Bundle do produto principal e bônus",
+      "14 fluxogramas visuais em PDF",
+      "Modelos de documentos trabalhistas e planilha automatizada"
+    ],
+    "unknowns": []
+  },
+  "creatives": [
+    {
+      "id": "C01",
+      "angle": "Hero Offer / Pacote Completo",
+      "hypothesis": "Anúncio centrado no alto valor percebido do bundle e alívio de leitura reduz o CPA em públicos amplos de DP e contabilidade.",
+      "copy": {
+        "art_headline": "DOMINE AS ROTINAS DO eSOCIAL SEM PERDER HORAS EM MANUAIS DE 900 PÁGINAS",
+        "subheadline": "14 fluxogramas visuais em PDF para consultar na sua mesa e zerar erros no DP.",
+        "bullets": [
+          "14 Fluxogramas Visuais dos Eventos S-xxxx",
+          "5 Bônus Exclusivos de Blindagem Fiscal",
+          "Acesso Vitalício com Download Imediato em PDF"
+        ],
+        "price_tag": "De R$ 97,00 por apenas R$ 27,90",
+        "cta": "QUERO MEU GUIA AGORA →",
+        "primary_text": "Você ainda perde horas caçando regras em manuais de 900 páginas ou travando no fechamento da folha? O Mapa Fácil do eSocial resume todos os eventos S-xxxx em 14 fluxogramas visuais diretos ao ponto. Consulte na sua mesa e saiba exatamente o que fazer do S-1200 ao S-2299. Toque em Saiba Mais e garanta o guia completo com 5 bônus por apenas R$ 27,90.",
+        "meta_headline": "Mapa Fácil do eSocial (14 Fluxogramas em PDF)",
+        "meta_description": "Acesso imediato com 5 bônus inclusos por R$ 27,90."
+      },
+      "visual": {
+        "family": "hero_offer",
+        "scene_prompt": "Mockup 3D bundle em destaque central com laptop, tablet e celular exibindo fluxogramas, fundo azul marinho tecnológico com glow suave e botões de alto contraste.",
+        "palette": ["#0A111E", "#132238", "#2563EB", "#10B981", "#FBBF24"],
+        "composition": "Centralizada com hierarquia vertical, badge superior e CTA inferior.",
+        "editable_layers": ["fundo", "badge", "headline", "mockup", "bullets_box", "preco", "cta"]
+      },
+      "formats": ["1080x1350", "1080x1920"],
+      "compliance_notes": ["Sem promessas irreais de renda; foco estritamente operacional e educativo.", "Preço e bônus 100% alinhados com a página de vendas."]
+    },
+    {
+      "id": "C02",
+      "angle": "Bold Price / Fechamento Seguro sem Multas",
+      "hypothesis": "Apelar para a dor do risco de multas fiscais no fechamento mensal gera maior taxa de clique (CTR) em escritórios e gestores de DP.",
+      "copy": {
+        "art_headline": "FECHE A FOLHA DE PAGAMENTO SEM O MEDO DE UMA MULTA DO eSOCIAL",
+        "subheadline": "Evite autuações automáticas de R$ 800 a R$ 3.000 por erro de prazo.",
+        "bullets": [
+          "O Manual do Governo tem 900 páginas de texto maçante",
+          "O Mapa Fácil resume cada rotina em 1 fluxograma direto",
+          "Passo a passo do S-1200 ao S-2299 com prazos destacados"
+        ],
+        "price_tag": "Valor Especial: apenas R$ 27,90",
+        "cta": "BLINDAR MEU DEPARTAMENTO PESSOAL →",
+        "primary_text": "Um único erro de prazo no envio de admissão ou rescisão pode gerar autuação automática da Receita Federal e MTE. Chega de insegurança no fechamento! O Mapa Fácil do eSocial entrega o passo a passo visual para você blindar seu Departamento Pessoal e conferir cada evento antes de enviar. Clique abaixo e aproveite a oferta de lançamento por apenas R$ 27,90.",
+        "meta_headline": "Feche a Folha sem Risco de Multas no eSocial",
+        "meta_description": "Guia visual passo a passo para o DP por R$ 27,90."
+      },
+      "visual": {
+        "family": "bold_price",
+        "scene_prompt": "Composição com contraste vermelho escuro/amber de alerta, mockup 3D em perspectiva e caixas de contraste destacando a prevenção de multas.",
+        "palette": ["#0F172A", "#180F1E", "#DC2626", "#F87171", "#10B981"],
+        "composition": "Alerta superior, headline contrastante, mockup central e comparativo antes/depois.",
+        "editable_layers": ["fundo", "alerta_badge", "headline", "mockup", "comparativo_box", "preco", "cta"]
+      },
+      "formats": ["1080x1350", "1080x1920"],
+      "compliance_notes": ["Valores de multas baseados na legislação vigente (CLT Art. 47 e NR-28).", "Linguagem em conformidade com as diretrizes do Meta Ads."]
+    },
+    {
+      "id": "C03",
+      "angle": "Educacional / Infográfico de Prazos Críticos",
+      "hypothesis": "Formato infográfico gera alto número de compartilhamentos e salvamentos orgânicos pagos, barateando os leilões do Meta.",
+      "copy": {
+        "art_headline": "VOCÊ SABE EXATAMENTE O PRAZO FATAL DE CADA EVENTO DO SEU DP?",
+        "subheadline": "Tabela prática com regras de S-2190, S-2210, S-2299 e fechamento mensal.",
+        "bullets": [
+          "S-2190: Até 23h59 do dia anterior (D-1)",
+          "S-2210: Até o 1º dia útil seguinte (CAT)",
+          "S-2299: Até 10 dias corridos da rescisão",
+          "S-1200/1299: Até o dia 15 do mês seguinte"
+        ],
+        "price_tag": "Receba os 14 Fluxogramas por R$ 27,90",
+        "cta": "BAIXAR MEU GUIA DE PRAZOS AGORA →",
+        "primary_text": "Você tem certeza de que está transmitindo os eventos do eSocial dentro do prazo legal? Confira na imagem os prazos fatais dos eventos mais perigosos do Departamento Pessoal. Tenha essa tabela e mais 14 fluxogramas visuais completos salvos na sua mesa. Baixe o guia oficial com 5 bônus agora mesmo por apenas R$ 27,90.",
+        "meta_headline": "Prazos Fatais do eSocial: Tabela Prática",
+        "meta_description": "14 fluxogramas e tabela de prazos em PDF."
+      },
+      "visual": {
+        "family": "educational_infographic",
+        "scene_prompt": "Grade técnica e cartões de dados limpos exibindo cada código de evento com tags coloridas e prazos resumidos.",
+        "palette": ["#0A1423", "#0F1E32", "#0284C7", "#38BDF8", "#10B981"],
+        "composition": "Estrutura tabular em cartões verticais com tipografia mono/sans de alta legibilidade.",
+        "editable_layers": ["fundo", "header", "cartoes_eventos", "callout", "preco", "cta"]
+      },
+      "formats": ["1080x1350", "1080x1920"],
+      "compliance_notes": ["Dados técnicos retirados das normas vigentes do manual do eSocial.", "Transparência total na apresentação das regras."]
+    },
+    {
+      "id": "C04",
+      "angle": "Ferramenta de Mesa / Consulta Rápida Diária",
+      "hypothesis": "Posicionar o material como 'ferramenta de trabalho diária' (e não apenas um curso ou livro) reduz a objeção de falta de tempo para estudar.",
+      "copy": {
+        "art_headline": "O GUIA RÁPIDO QUE TODO DP DEVERIA TER NA SUA MESA DE TRABALHO",
+        "subheadline": "Bateu dúvida no fechamento? Abra o fluxograma e resolva em 30 segundos.",
+        "bullets": [
+          "Economize até 2 horas por dia de consultas desnecessárias",
+          "Chega de abrir manuais técnicos com linguagem incompreensível",
+          "Tenha a segurança de conferir cada passo antes de enviar"
+        ],
+        "price_tag": "Oferta de Lançamento: R$ 27,90",
+        "cta": "TER MEU GUIA DE MESA AGORA →",
+        "primary_text": "Nenhum profissional de Departamento Pessoal precisa decorar centenas de regras do eSocial de cabeça. O segredo dos profissionais mais rápidos e seguros é ter uma ferramenta de consulta rápida na mesa. Com o Mapa Fácil do eSocial, você resolve qualquer dúvida em menos de 1 minuto. Baixe o PDF completo por apenas R$ 27,90.",
+        "meta_headline": "Guia de Consulta Rápida de Mesa do DP",
+        "meta_description": "Acesso imediato e vitalício por apenas R$ 27,90."
+      },
+      "visual": {
+        "family": "tool_checklist",
+        "scene_prompt": "Mockup do guia estilizado como material de mesa de escritório profissional, com selos de praticidade e bullets de agilidade operacional.",
+        "palette": ["#111827", "#1E293B", "#10B981", "#34D399", "#F59E0B"],
+        "composition": "Hierarquia corporativa com foco na velocidade de consulta.",
+        "editable_layers": ["fundo", "badge_utilidade", "headline", "mockup", "beneficios_box", "preco", "cta"]
+      },
+      "formats": ["1080x1350", "1080x1920"],
+      "compliance_notes": ["Sem promessas de ganhos financeiros; foco exclusivo em produtividade e organização."]
+    },
+    {
+      "id": "C05",
+      "angle": "Valor Agregado / Kit Completo com 5 Bônus",
+      "hypothesis": "Destacar a quantidade de bônus complementares ativa o gatilho de oferta irrecusável e maximiza as conversões de compra por impulso.",
+      "copy": {
+        "art_headline": "LEVE O GUIA COMPLETO DO eSOCIAL + 5 BÔNUS EXCLUSIVOS DE BLINDAGEM",
+        "subheadline": "Tudo o que o seu escritório ou empresa precisa para não correr riscos trabalhistas.",
+        "bullets": [
+          "BÔNUS 1: Mapa Visual de SST (S-2210/2220/2240 e LTCAT)",
+          "BÔNUS 2: Calendário Anual Operacional de Prazos do DP",
+          "BÔNUS 3: Guia Comparativo Antes vs Depois do eSocial",
+          "BÔNUS 4: 50 Perguntas e Respostas dos Erros Mais Frequentes",
+          "BÔNUS 5: Checklist Anti-Multas de Fechamento de Folha"
+        ],
+        "price_tag": "Mais de R$ 250 em conteúdo por apenas R$ 27,90",
+        "cta": "QUERO O PACOTE COMPLETO COM OS 5 BÔNUS →",
+        "primary_text": "Só o Checklist de Fechamento de Folha e o Guia de SST já valem mais de R$ 100 sozinhos. Mas hoje você leva o Guia Principal com 14 fluxogramas + TODOS os 5 bônus exclusivos de blindagem por um pagamento único de apenas R$ 27,90. Oferta por tempo limitado. Toque no botão e garanta o seu antes que o preço suba.",
+        "meta_headline": "Guia do eSocial + 5 Bônus Exclusivos Inclusos",
+        "meta_description": "Pacote completo de blindagem por apenas R$ 27,90."
+      },
+      "visual": {
+        "family": "bonus_stack",
+        "scene_prompt": "Composição rica com destaque para os 5 bônus em cartões dourados e selo de oferta imperdível.",
+        "palette": ["#0F0F23", "#191432", "#D97706", "#FBBF24", "#10B981"],
+        "composition": "Empilhamento visual de bônus, destaque de ancoragem de preço e botão de alta conversão.",
+        "editable_layers": ["fundo", "badge_bonus", "headline", "lista_bonus", "ancoragem_preco", "cta"]
+      },
+      "formats": ["1080x1350", "1080x1920"],
+      "compliance_notes": ["Todos os 5 bônus descritos no anúncio estão de fato incluídos no arquivo do produto."]
+    }
+  ]
+}

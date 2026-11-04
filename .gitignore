@@ -1,0 +1,7 @@
+# Git Ignore
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+_*.py
+PACOTE_MAPA_FACIL_ESOCIAL.zip
