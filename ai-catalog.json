@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Mapa Fácil do eSocial",
+    "identifier": "did:web:esocial.pages.dev",
+    "documentationUrl": "https://esocial.pages.dev/",
+    "logoUrl": "https://esocial.pages.dev/assets/mockup-produto-bundle.webp"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:esocial.pages.dev:web:landing-page",
+      "displayName": "Mapa Fácil do eSocial - Página Oficial",
+      "type": "text/html",
+      "url": "https://esocial.pages.dev/"
+    }
+  ]
+}

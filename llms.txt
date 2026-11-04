@@ -1,0 +1,10 @@
+# Mapa Fácil do eSocial e Rotinas de DP
+
+> Guia visual esquematizado com 14 fluxogramas e manuais simplificados para profissionais de Departamento Pessoal, Recursos Humanos e Contabilidade.
+
+## Conteúdo e Navegação
+
+- [Página Oficial e Planos](https://esocial.pages.dev/): Acesso completo aos 14 fluxogramas visuais dos eventos S-xxxx (admissão, folha, férias, rescisão e SST).
+- [Tabela de Prazos e Multas](https://esocial.pages.dev/#planos): Calendário de prazos de envio de eventos periódicos e não periódicos para evitar penalidades da CLT.
+- [Perguntas Frequentes](https://esocial.pages.dev/#faq): Respostas objetivas para as principais dúvidas sobre o eSocial, SST, DCTFWeb e FGTS Digital.
+- [Garantia e Suporte](https://esocial.pages.dev/#garantia): 7 dias de garantia incondicional e suporte direto aos alunos.
