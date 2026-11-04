@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Agentmap: https://esocial.pages.dev/.well-known/ai-catalog.json
