@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acesso — Planilha Automática de Prazos do eSocial</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0B0F19;
+      --card-bg: #111827;
+      --card-border: #1F2937;
+      --accent: #FACC15;
+      --emerald: #10B981;
+      --text: #F9FAFB;
+      --text-muted: #9CA3AF;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', sans-serif; }
+    body { background-color: var(--bg); color: var(--text); padding: 40px 16px 80px; line-height: 1.6; }
+    .container { max-width: 820px; margin: 0 auto; }
+    
+    .success-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--emerald);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 8px 18px;
+      border-radius: 9999px;
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .success-badge svg { width: 18px; height: 18px; fill: currentColor; }
+    
+    .hero { text-align: center; margin-bottom: 36px; }
+    .hero h1 { font-size: 30px; font-weight: 800; color: #fff; margin-bottom: 12px; }
+    .hero p { color: var(--text-muted); font-size: 16px; max-width: 600px; margin: 0 auto; }
+
+    .main-card {
+      background: linear-gradient(135deg, #064E3B 0%, #0F172A 100%);
+      border: 2px solid #10B981;
+      border-radius: 20px;
+      padding: 36px;
+      text-align: center;
+      margin-bottom: 36px;
+      box-shadow: 0 20px 25px -5px rgba(16, 185, 129, 0.2);
+    }
+    .main-card h2 { font-size: 24px; font-weight: 800; margin-bottom: 10px; color: #fff; }
+    .main-card p { color: #A7F3D0; font-size: 15px; margin-bottom: 26px; }
+    .btn-download-excel {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #10B981;
+      color: #000;
+      font-weight: 800;
+      font-size: 17px;
+      padding: 16px 36px;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.4);
+      transition: all 0.2s ease;
+    }
+    .btn-download-excel:hover { background: #34D399; transform: translateY(-2px); }
+
+    .tabs-info {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+    .tabs-info h3 { font-size: 18px; color: #fff; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+    .tab-item {
+      background: rgba(255, 255, 255, 0.03);
+      border-left: 3px solid #10B981;
+      border-radius: 6px;
+      padding: 14px 16px;
+      margin-bottom: 12px;
+    }
+    .tab-name { font-weight: 700; color: #fff; font-size: 15px; margin-bottom: 4px; }
+    .tab-desc { font-size: 13px; color: var(--text-muted); }
+
+    .instructions {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 24px;
+      font-size: 14px;
+    }
+    .instructions h3 { font-size: 17px; color: #fff; margin-bottom: 10px; }
+    .instructions ul { padding-left: 20px; color: #D1D5DB; }
+    .instructions li { margin-bottom: 6px; }
+
+    .support-box {
+      margin-top: 40px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 20px;
+      text-align: center;
+    }
+    .support-box p { font-size: 13px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="hero">
+      <div class="success-badge">
+        <svg viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+        Ferramenta Adicional Confirmada!
+      </div>
+      <h1>Planilha Automática de Prazos do eSocial & Rescisão</h1>
+      <p>Parabéns por adicionar a Planilha Automática. Baixe o arquivo Excel (.xlsx) abaixo e abra no Microsoft Excel ou Google Planilhas.</p>
+    </div>
+
+    <div class="main-card">
+      <h2>📊 Sua Planilha Automatizada em Excel</h2>
+      <p>Arquivo com fórmulas pré-configuradas para cálculo exato de aviso prévio proporcional (Lei 12.506/11), monitor de prazos do eSocial e tabela oficial de multas.</p>
+      <a href="../downloads/planilha_calculo_prazos_esocial.xlsx" download class="btn-download-excel">
+        ⬇️ Baixar Planilha em Excel (.xlsx)
+      </a>
+    </div>
+
+    <div class="tabs-info">
+      <h3>📑 Estrutura das 3 Abas Inclusas na Planilha:</h3>
+      
+      <div class="tab-item">
+        <div class="tab-name">Aba 1: Calculadora de Aviso Prévio & Rescisão</div>
+        <div class="tab-desc">Digite apenas a data de admissão e demissão: a planilha calcula automaticamente os anos completos, os 3 dias adicionais por ano, o total de dias (até 90 dias) e o prazo fatal para homologação/pagamento (Art. 477 da CLT / S-2299).</div>
+      </div>
+
+      <div class="tab-item">
+        <div class="tab-name">Aba 2: Monitor Operacional de Prazos do eSocial</div>
+        <div class="tab-desc">Painel visual com todos os eventos críticos (S-2190, S-2200, S-2210, S-2220, S-2240, S-2299, S-1200 a S-1299) com alertas de conformidade para manter seu DP 100% no prazo.</div>
+      </div>
+
+      <div class="tab-item">
+        <div class="tab-name">Aba 3: Tabela Oficial de Multas CLT & DCTFWeb</div>
+        <div class="tab-desc">Relação completa das penalidades e multas aplicadas pelo MTE e Receita Federal por descumprimento de prazos e eventos não enviados.</div>
+      </div>
+    </div>
+
+    <div class="instructions">
+      <h3>💡 Compatibilidade:</h3>
+      <ul>
+        <li>100% compatível com <strong>Microsoft Excel</strong> (Windows e Mac).</li>
+        <li>100% compatível com <strong>Google Planilhas</strong> (basta fazer o upload no seu Google Drive e abrir).</li>
+        <li>Fórmulas desbloqueadas para você adaptar conforme a necessidade do seu escritório.</li>
+      </ul>
+    </div>
+
+    <div class="support-box">
+      <p>Acesso vitalício garantido. Salve uma cópia de segurança em sua máquina.</p>
+    </div>
+  </div>
+
+</body>
+</html>

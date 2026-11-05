@@ -15,16 +15,13 @@
       --card-border: #1F2937;
       --accent: #FACC15;
       --emerald: #10B981;
-      --emerald-dark: #059669;
       --text: #F9FAFB;
       --text-muted: #9CA3AF;
-      --primary-blue: #2563EB;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', sans-serif; }
     body { background-color: var(--bg); color: var(--text); padding: 40px 16px 80px; line-height: 1.6; }
     .container { max-width: 860px; margin: 0 auto; }
     
-    /* Header */
     .success-badge {
       display: inline-flex;
       align-items: center;
@@ -40,22 +37,21 @@
     }
     .success-badge svg { width: 18px; height: 18px; fill: currentColor; }
     
-    .hero { text-align: center; margin-bottom: 40px; }
+    .hero { text-align: center; margin-bottom: 36px; }
     .hero h1 { font-size: 32px; font-weight: 800; color: #fff; margin-bottom: 12px; }
     .hero p { color: var(--text-muted); font-size: 16px; max-width: 600px; margin: 0 auto; }
 
-    /* Mega Card ZIP */
     .zip-card {
       background: linear-gradient(135deg, #1E1B4B 0%, #172554 100%);
       border: 2px solid #3B82F6;
       border-radius: 20px;
-      padding: 32px;
+      padding: 30px;
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 36px;
       box-shadow: 0 20px 25px -5px rgba(37, 99, 235, 0.2);
     }
     .zip-card h2 { font-size: 22px; font-weight: 800; margin-bottom: 8px; color: #fff; }
-    .zip-card p { color: #BFDBFE; font-size: 15px; margin-bottom: 24px; }
+    .zip-card p { color: #BFDBFE; font-size: 15px; margin-bottom: 22px; }
     .btn-zip {
       display: inline-flex;
       align-items: center;
@@ -63,8 +59,8 @@
       background: var(--emerald);
       color: #000;
       font-weight: 800;
-      font-size: 17px;
-      padding: 16px 36px;
+      font-size: 16px;
+      padding: 15px 32px;
       border-radius: 12px;
       text-decoration: none;
       box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.4);
@@ -72,37 +68,35 @@
     }
     .btn-zip:hover { background: #34D399; transform: translateY(-2px); }
 
-    /* Section Titles */
     .section-title {
-      font-size: 20px;
+      font-size: 19px;
       font-weight: 700;
       color: #fff;
       display: flex;
       align-items: center;
       gap: 10px;
-      margin: 36px 0 18px;
+      margin: 32px 0 16px;
       padding-bottom: 10px;
       border-bottom: 1px solid var(--card-border);
     }
 
-    /* List of Cards */
     .item-card {
       background: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: 14px;
-      padding: 20px;
+      padding: 18px 20px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 16px;
-      margin-bottom: 14px;
+      margin-bottom: 12px;
       transition: border-color 0.2s ease;
     }
     .item-card:hover { border-color: rgba(250, 204, 21, 0.5); }
     .item-info { display: flex; align-items: center; gap: 16px; }
     .item-icon {
-      width: 48px;
-      height: 48px;
+      width: 46px;
+      height: 46px;
       background: rgba(250, 204, 21, 0.1);
       border-radius: 12px;
       display: flex;
@@ -127,7 +121,6 @@
     }
     .btn-download:hover { background: var(--accent); color: #000; border-color: var(--accent); }
 
-    /* Highlight Card (Principal) */
     .item-card.highlight {
       background: linear-gradient(90deg, #182234 0%, #111827 100%);
       border: 1.5px solid #FACC15;
@@ -138,7 +131,6 @@
       font-weight: 800;
     }
 
-    /* Footer & Suporte */
     .support-box {
       margin-top: 50px;
       background: rgba(255, 255, 255, 0.03);
@@ -159,16 +151,16 @@
         <svg viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
         Pagamento Confirmado com Sucesso!
       </div>
-      <h1>Central de Acesso aos seus Materiais</h1>
-      <p>Baixe o pacote completo em um único clique ou faça o download individual dos materiais abaixo para consultar na sua mesa.</p>
+      <h1>Central de Download — Mapa Fácil do eSocial</h1>
+      <p>Baixe o pacote completo com o produto principal e seus 5 bônus em um único clique ou faça o download individual dos PDFs abaixo.</p>
     </div>
 
     <!-- Mega Card Baixar Tudo -->
     <div class="zip-card">
-      <h2>📦 Quer baixar tudo de uma só vez?</h2>
-      <p>Reunimos o Mapa Fácil, os 5 bônus e os materiais complementares em um único arquivo compactado.</p>
-      <a href="../downloads/PACOTE_COMPLETO_MAPA_FACIL_ESOCIAL.zip" download class="btn-zip">
-        ⬇️ Baixar Pacote Completo (.ZIP)
+      <h2>📦 Baixar Produto Principal + 5 Bônus (.ZIP)</h2>
+      <p>Arquivo compactado contendo todos os 14 fluxogramas e os 5 manuais bônus inclusos.</p>
+      <a href="../downloads/PACOTE_MAPA_FACIL_E_BONUS.zip" download class="btn-zip">
+        ⬇️ Baixar Pacote em 1 Clique (.ZIP)
       </a>
     </div>
 
@@ -248,37 +240,9 @@
       <a href="../downloads/bonus_05_checklist_fechamento_folha.pdf" download class="btn-download">Baixar PDF</a>
     </div>
 
-    <!-- Order Bumps (Complementares) -->
-    <div class="section-title">
-      <span>⚡</span> Materiais Complementares (Order Bumps)
-    </div>
-
-    <div class="item-card">
-      <div class="item-info">
-        <div class="item-icon">📄</div>
-        <div>
-          <div class="item-title">Kit de 25 Modelos de Documentos Trabalhistas Editáveis</div>
-          <div class="item-desc">Advertências, suspensões, acordos de jornada, home office e rescisão</div>
-        </div>
-      </div>
-      <a href="../downloads/kit_25_modelos_documentos_trabalhistas.pdf" download class="btn-download">Baixar PDF</a>
-    </div>
-
-    <div class="item-card">
-      <div class="item-info">
-        <div class="item-icon">📊</div>
-        <div>
-          <div class="item-title">Planilha Automática de Prazos do eSocial e Rescisão</div>
-          <div class="item-desc">Calculadora de aviso prévio proporcional e monitor de prazos em Excel</div>
-        </div>
-      </div>
-      <a href="../downloads/planilha_calculo_prazos_esocial.xlsx" download class="btn-download">Baixar Excel (.xlsx)</a>
-    </div>
-
-    <!-- Box de Suporte -->
     <div class="support-box">
-      <h3>Precisa de ajuda com o seu download?</h3>
-      <p>Nosso time de suporte está à disposição para garantir que você aproveite 100% do seu material.<br>Acesso vitalício garantido.</p>
+      <h3>Precisa de suporte com o seu download?</h3>
+      <p>Nosso time está à disposição para ajudar. Seu acesso aos materiais é vitalício.</p>
     </div>
   </div>
 
