@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Área de Acesso e Download — Mapa Fácil do eSocial</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0B0F19;
+      --card-bg: #111827;
+      --card-border: #1F2937;
+      --accent: #FACC15;
+      --emerald: #10B981;
+      --emerald-dark: #059669;
+      --text: #F9FAFB;
+      --text-muted: #9CA3AF;
+      --primary-blue: #2563EB;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', sans-serif; }
+    body { background-color: var(--bg); color: var(--text); padding: 40px 16px 80px; line-height: 1.6; }
+    .container { max-width: 860px; margin: 0 auto; }
+    
+    /* Header */
+    .success-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--emerald);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 8px 18px;
+      border-radius: 9999px;
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .success-badge svg { width: 18px; height: 18px; fill: currentColor; }
+    
+    .hero { text-align: center; margin-bottom: 40px; }
+    .hero h1 { font-size: 32px; font-weight: 800; color: #fff; margin-bottom: 12px; }
+    .hero p { color: var(--text-muted); font-size: 16px; max-width: 600px; margin: 0 auto; }
+
+    /* Mega Card ZIP */
+    .zip-card {
+      background: linear-gradient(135deg, #1E1B4B 0%, #172554 100%);
+      border: 2px solid #3B82F6;
+      border-radius: 20px;
+      padding: 32px;
+      text-align: center;
+      margin-bottom: 40px;
+      box-shadow: 0 20px 25px -5px rgba(37, 99, 235, 0.2);
+    }
+    .zip-card h2 { font-size: 22px; font-weight: 800; margin-bottom: 8px; color: #fff; }
+    .zip-card p { color: #BFDBFE; font-size: 15px; margin-bottom: 24px; }
+    .btn-zip {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--emerald);
+      color: #000;
+      font-weight: 800;
+      font-size: 17px;
+      padding: 16px 36px;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.4);
+      transition: all 0.2s ease;
+    }
+    .btn-zip:hover { background: #34D399; transform: translateY(-2px); }
+
+    /* Section Titles */
+    .section-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 36px 0 18px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    /* List of Cards */
+    .item-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 14px;
+      transition: border-color 0.2s ease;
+    }
+    .item-card:hover { border-color: rgba(250, 204, 21, 0.5); }
+    .item-info { display: flex; align-items: center; gap: 16px; }
+    .item-icon {
+      width: 48px;
+      height: 48px;
+      background: rgba(250, 204, 21, 0.1);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+    }
+    .item-title { font-size: 15px; font-weight: 700; color: #fff; }
+    .item-desc { font-size: 13px; color: var(--text-muted); }
+    .btn-download {
+      background: #1F2937;
+      color: var(--accent);
+      border: 1px solid rgba(250, 204, 21, 0.3);
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 700;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+    }
+    .btn-download:hover { background: var(--accent); color: #000; border-color: var(--accent); }
+
+    /* Highlight Card (Principal) */
+    .item-card.highlight {
+      background: linear-gradient(90deg, #182234 0%, #111827 100%);
+      border: 1.5px solid #FACC15;
+    }
+    .item-card.highlight .btn-download {
+      background: var(--accent);
+      color: #000;
+      font-weight: 800;
+    }
+
+    /* Footer & Suporte */
+    .support-box {
+      margin-top: 50px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 24px;
+      text-align: center;
+    }
+    .support-box h3 { font-size: 16px; color: #fff; margin-bottom: 6px; }
+    .support-box p { font-size: 13px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="hero">
+      <div class="success-badge">
+        <svg viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+        Pagamento Confirmado com Sucesso!
+      </div>
+      <h1>Central de Acesso aos seus Materiais</h1>
+      <p>Baixe o pacote completo em um único clique ou faça o download individual dos materiais abaixo para consultar na sua mesa.</p>
+    </div>
+
+    <!-- Mega Card Baixar Tudo -->
+    <div class="zip-card">
+      <h2>📦 Quer baixar tudo de uma só vez?</h2>
+      <p>Reunimos o Mapa Fácil, os 5 bônus e os materiais complementares em um único arquivo compactado.</p>
+      <a href="../downloads/PACOTE_COMPLETO_MAPA_FACIL_ESOCIAL.zip" download class="btn-zip">
+        ⬇️ Baixar Pacote Completo (.ZIP)
+      </a>
+    </div>
+
+    <!-- Produto Principal -->
+    <div class="section-title">
+      <span>📖</span> Produto Principal
+    </div>
+
+    <div class="item-card highlight">
+      <div class="item-info">
+        <div class="item-icon">🗺️</div>
+        <div>
+          <div class="item-title">Mapa Fácil do eSocial e Rotinas de DP</div>
+          <div class="item-desc">14 fluxogramas visuais esquematizados em PDF de alta resolução</div>
+        </div>
+      </div>
+      <a href="../downloads/mapa_facil_esocial_produto_principal.pdf" download class="btn-download">Baixar PDF</a>
+    </div>
+
+    <!-- Bônus Exclusivos -->
+    <div class="section-title">
+      <span>🎁</span> Seus 5 Bônus Exclusivos Inclusos
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <div class="item-icon">🏥</div>
+        <div>
+          <div class="item-title">Bônus 1: Mapa Visual de SST no eSocial</div>
+          <div class="item-desc">Eventos S-2210, S-2220 e S-2240 esquematizados sem complicação</div>
+        </div>
+      </div>
+      <a href="../downloads/bonus_01_mapa_visual_sst.pdf" download class="btn-download">Baixar PDF</a>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <div class="item-icon">📅</div>
+        <div>
+          <div class="item-title">Bônus 2: Calendário Permanente de Prazos do DP</div>
+          <div class="item-desc">Prazos de admissão, fechamento da folha e recolhimentos fiscais</div>
+        </div>
+      </div>
+      <a href="../downloads/bonus_02_calendario_prazos_dp.pdf" download class="btn-download">Baixar PDF</a>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <div class="item-icon">🔄</div>
+        <div>
+          <div class="item-title">Bônus 3: Guia Antes & Depois das Rotinas de DP</div>
+          <div class="item-desc">Comparativo de procedimentos antigos vs. Fluxo digital correto</div>
+        </div>
+      </div>
+      <a href="../downloads/bonus_03_guia_antes_depois_rotinas.pdf" download class="btn-download">Baixar PDF</a>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <div class="item-icon">❓</div>
+        <div>
+          <div class="item-title">Bônus 4: Manual 50 Perguntas & Respostas dos Erros Mais Comuns</div>
+          <div class="item-desc">Guia rápido de solução para as mensagens de erro que mais travam o DP</div>
+        </div>
+      </div>
+      <a href="../downloads/bonus_04_50_perguntas_respostas_erros.pdf" download class="btn-download">Baixar PDF</a>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <div class="item-icon">✅</div>
+        <div>
+          <div class="item-title">Bônus 5: Checklist Definitivo de Fechamento da Folha</div>
+          <div class="item-desc">Passo a passo à prova de falhas para zerar divergências com a DCTFWeb</div>
+        </div>
+      </div>
+      <a href="../downloads/bonus_05_checklist_fechamento_folha.pdf" download class="btn-download">Baixar PDF</a>
+    </div>
+
+    <!-- Order Bumps (Complementares) -->
+    <div class="section-title">
+      <span>⚡</span> Materiais Complementares (Order Bumps)
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <div class="item-icon">📄</div>
+        <div>
+          <div class="item-title">Kit de 25 Modelos de Documentos Trabalhistas Editáveis</div>
+          <div class="item-desc">Advertências, suspensões, acordos de jornada, home office e rescisão</div>
+        </div>
+      </div>
+      <a href="../downloads/kit_25_modelos_documentos_trabalhistas.pdf" download class="btn-download">Baixar PDF</a>
+    </div>
+
+    <div class="item-card">
+      <div class="item-info">
+        <div class="item-icon">📊</div>
+        <div>
+          <div class="item-title">Planilha Automática de Prazos do eSocial e Rescisão</div>
+          <div class="item-desc">Calculadora de aviso prévio proporcional e monitor de prazos em Excel</div>
+        </div>
+      </div>
+      <a href="../downloads/planilha_calculo_prazos_esocial.xlsx" download class="btn-download">Baixar Excel (.xlsx)</a>
+    </div>
+
+    <!-- Box de Suporte -->
+    <div class="support-box">
+      <h3>Precisa de ajuda com o seu download?</h3>
+      <p>Nosso time de suporte está à disposição para garantir que você aproveite 100% do seu material.<br>Acesso vitalício garantido.</p>
+    </div>
+  </div>
+
+</body>
+</html>
